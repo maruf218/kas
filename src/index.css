@@ -1,0 +1,209 @@
+/* 269745 */
+
+/* ------------------ Nav Menu Start ------------------- */
+
+.Mainnavbar .navbar-brand {
+  color: #269745;
+  font-weight: 700;
+}
+.Mainnavbar li.nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Mainnavbar .nav-item.navBtn .btn {
+  border-radius: 0 !important;
+  border: 2px solid #269745;
+}
+.Mainnavbar .nav-item.navBtn .btn:hover {
+  background-color: #2697452f;
+}
+.Mainnavbar a.nav-link {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+  padding: 0 14px !important;
+}
+.Mainnavbar a.nav-link button {
+  font-size: 14px;
+  font-weight: 600;
+  color: #269745;
+}
+.Mainnavbar a.nav-link i {
+  color: #000;
+  font-weight: 600;
+  font-size: 18px;
+}
+button.btn.Cng-btn {
+  background: #dddddd7e;
+  border: 0;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 0;
+}
+button.btn.Cng-btn:hover {
+  background: #ddd;
+  border: 0;
+}
+.activeB{
+  border-bottom: 2px solid #269745;
+}
+/* ------------------ Nav Menu End ------------------- */
+
+/* ------------------ Hero Menu Start ------------------- */
+
+.bg-hero {
+  background: url("../public/img/Hero.jpg") no-repeat;
+  min-height: 340px;
+  background-size: cover;
+}
+
+/* ------------------ Hero Menu End ------------------- */
+
+/* ------------------ Categories Menu Start ------------------- */
+button.btn.butnSearch {
+  border: 1px solid #ddd;
+  padding: 12px 18px;
+}
+.form-select.select-opt {
+  width: 220px;
+}
+.CatCard img {
+  height: 120px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 6px 6px 0 0;
+}
+.CatCard {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+.CatCard a {
+  text-decoration: none;
+  color: #000;
+}
+.CatCard p {
+  margin: 10px 0 10px 15px;
+  font-size: 15px;
+  font-weight: 500;
+}
+/* ------------------ Categrois Menu End ------------------- */
+/* ------------------ Contact Menu Start ------------------- */
+.contact-map iframe {
+  width: 100%;
+  height: 360px;
+  border-radius: 5px;
+}
+/* ------------------ Contact Menu End ------------------- */
+/* ------------------ Subitem Menu Start ------------------- */
+.subCard img {
+  width: 90%;
+  height: 120px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+}
+.subCard {
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  cursor: pointer;
+}
+.subCard span {
+  color: rgb(77, 77, 77);
+  font-size: 14px;
+  line-height: 0;
+}
+.subCard p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+.sP-btnx {
+  width: 10%;
+  background-color: #fff;
+  outline: 0;
+  color: #269745;
+  font-weight: bold;
+}
+.sP-btnO {
+  width: 85%;
+  background-color: #269745;
+  color: #fff;
+}
+.subItmPop .subpopFoot , .sP-btnx {
+  filter: drop-shadow(10px 10px 1rem rgba(112, 112, 121, 0.4));
+}
+.subItmPop button:active , .sP-btnx:active{
+  border: 1px solid #269745 !important;
+}
+.subItmPop img{
+  width: 100%;
+  border-radius: 7px 7px  0 0;
+}
+.sP-btnO:hover , .sP-btnx:hover{
+  background-color: #fff;
+  color: #269745;
+  border: 1px solid #269745;
+}
+.modal-dialog-scrollable .modal-body::-webkit-scrollbar {
+  display: none;
+}
+.modal-dialog-scrollable .modal-body{padding: 0;}
+
+/* ------------------ Subitem Menu End ------------------- */
+.Cart{
+  width: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  min-height: 300px;
+  bottom: -310px;
+  right: 0;
+  filter: drop-shadow(10px 10px 1rem rgba(112, 112, 121, 0.4));
+  z-index: 2000;
+}
+.modal-backdrop {
+  position:unset !important;
+}
+.modal-content{
+  filter: drop-shadow(10px 10px 1rem rgba(112, 112, 121, 0.4));
+}
+
+/* ------------------ Responsive Design Start ------------------- */
+
+@media only screen and (max-width: 768px) {
+  .bg-hero {
+    min-height: 280px;
+  }
+  .nav-item{
+    margin: 4px 0;
+  }
+  .subCard img {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .subCard {
+    height: 150px;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  .bg-hero {
+    min-height: 550px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .Cart{
+    bottom: -310px;
+    right: -80px;
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .Cart{
+    bottom: -310px;
+    right: -80px;
+    width: 250px;
+  }
+}
